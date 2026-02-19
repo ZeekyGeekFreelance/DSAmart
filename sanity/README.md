@@ -36,11 +36,11 @@ VITE_SANITY_API_TOKEN=your_read_token
 
 Studio is embedded in this app at:
 
-- `http://localhost:5173/studio`
+- `http://localhost:5173/admin`
 
 This is powered by:
 - `src/pages/StudioPage.tsx`
-- `sanity/sanity.config.ts` with `basePath: '/studio'`
+- `sanity/sanity.config.ts` with `basePath: '/admin'`
 
 ## 3. Content model order
 

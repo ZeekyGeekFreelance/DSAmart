@@ -5,7 +5,7 @@ A React + Vite storefront for DSA Mart with:
 - Dedicated `/shop` page with category/subcategory filtering
 - Product detail modal with image gallery, swipe/arrows/dots, autoplay
 - Sanity CMS integration for products/services/categories/subcategories
-- Embedded Sanity Studio at `/studio`
+- Embedded Sanity Studio at `/admin`
 
 ## Tech Stack
 
@@ -47,7 +47,7 @@ App URLs:
 - Site: `http://localhost:5173`
 - Shop: `http://localhost:5173/shop`
 - Services: `http://localhost:5173/services`
-- Studio: `http://localhost:5173/studio`
+- Studio: `http://localhost:5173/admin`
 
 ## 5. Sanity Studio / Schema
 
@@ -101,7 +101,7 @@ npm run lint
 - Empty category/subcategory dropdowns in Studio:
   Create/import `productCategory` and `productSubcategory` documents first.
 
-- `/studio` not loading:
+- `/admin` not loading:
   Check Sanity env vars and restart `npm run dev`.
 
 ## Project Structure
