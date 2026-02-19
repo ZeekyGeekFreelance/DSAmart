@@ -15,7 +15,7 @@ function App() {
   const path = window.location.pathname.toLowerCase();
   const isShopPage = path === '/shop';
   const isServicesPage = path === '/services';
-  const isStudioPage = path === '/studio' || path.startsWith('/studio/');
+  const isStudioPage = path === '/admin' || path.startsWith('/admin/');
 
   if (isStudioPage) {
     return (

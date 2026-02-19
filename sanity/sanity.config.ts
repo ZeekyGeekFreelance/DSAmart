@@ -7,7 +7,7 @@ export default defineConfig({
   title: 'Sales Portfolio Admin',
   projectId: import.meta.env.VITE_SANITY_PROJECT_ID || 'iy3c1ufh',
   dataset: import.meta.env.VITE_SANITY_DATASET || 'production',
-  basePath: '/studio',
+  basePath: '/admin',
   plugins: [structureTool()],
   schema: {
     types: schemaTypes,
